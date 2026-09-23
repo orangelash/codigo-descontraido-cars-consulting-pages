@@ -104,9 +104,12 @@ h2.big {
   display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
 }
 .brand {
+  display: inline-flex; align-items: center; gap: 10px;
   font-family: "Schibsted Grotesk", sans-serif; font-weight: 700; font-size: 1.02rem;
   letter-spacing: -.015em; color: #fff; text-decoration: none; margin-right: auto; white-space: nowrap;
 }
+/* Same lockup construction as the technology site so the two read as one company. */
+.brand img { display: block; flex: none; }
 .brand em { font-style: normal; font-weight: 600; color: var(--rust-hi); }
 .nav-links {
   display: flex; gap: 4px; flex-wrap: wrap;
